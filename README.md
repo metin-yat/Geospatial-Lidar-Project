@@ -29,12 +29,15 @@ The 2 data source I picked from that data source contains:
 *Results:*
 
 All contours:
+
 ![AllContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/all_contours.png)
 
 Just contours:
+
 ![JustContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/just_contours.png)
 
 Just Convex Hulls:
+
 ![JustHulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/just_hulls.png)
 
 Contours and Convex Hulls together:
@@ -48,15 +51,19 @@ Contours and Convex Hulls together:
 *Results:*
 
 All contours:
+
 ![AllContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/all_contours.png)
 
 Just contours:
+
 ![JustContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/just_contours.png)
 
 Just Convex Hulls:
+
 ![JustHulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/just_hulls.png)
 
 Contours and Convex Hulls together:
+
 ![Contours&Hulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/hulls_%26_contours.png)
 
 
