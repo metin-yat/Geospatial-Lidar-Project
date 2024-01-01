@@ -38,6 +38,7 @@ Just Convex Hulls:
 ![JustHulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/just_hulls.png)
 
 Contours and Convex Hulls together:
+
 ![Contours&Hulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/hulls_%26_contours.png)
 
 
