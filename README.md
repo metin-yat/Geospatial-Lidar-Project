@@ -18,7 +18,7 @@ The 2 data source I picked from that data source contains:
 - Just trees but 2M+ points
 
 <aside>
-ℹ️ All Inputs are coming from the same source & the **data source: https://doi.org/10.5069/G94Q7S68**
+ℹ️ All Inputs are coming from the same source & the data source: https://doi.org/10.5069/G94Q7S68
 
 </aside>
 
