@@ -30,7 +30,7 @@ Results and input are not looking at the same directions for first data I used b
 
 *Input (How input point cloud looks like):*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10c15cd4-9b0d-4e2e-9e7f-0d1c0eba9298/70cc0c06-89aa-41f7-894c-2964647fe4d5/Untitled.png)
+![Untitled](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/all_contours.png)
 
 *Results:*
 
