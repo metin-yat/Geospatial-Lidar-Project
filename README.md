@@ -26,27 +26,38 @@ The 2 data source I picked from that data source contains:
 
 **1** - **Just Seperated Trees**
 
-Results and input are not looking at the same directions for first data I used but we can easily count medium/big  vegetation.
-
-*Input (How input point cloud looks like):*
-
-![Untitled](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/all_contours.png)
-
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10c15cd4-9b0d-4e2e-9e7f-0d1c0eba9298/aa729ab5-03ce-4c38-8719-d06877d54e7b/Untitled.png)
+All contours:
+![AllContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/all_contours.png)
+
+Just contours:
+![JustContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/just_contours.png)
+
+Just Convex Hulls:
+![JustHulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/just_hulls.png)
+
+Contours and Convex Hulls together:
+![Contours&Hulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/just%20seperated%20trees/hulls_%26_contours.png)
+
+
 
 **2** -  **Large area with buildings**
 
-*Input:* 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10c15cd4-9b0d-4e2e-9e7f-0d1c0eba9298/0c55b8ed-7498-40b3-8d1a-7e811189e140/Untitled.png)
-
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10c15cd4-9b0d-4e2e-9e7f-0d1c0eba9298/597c99f4-a6f5-4d28-acb5-5a1bc65d034e/Untitled.png)
+All contours:
+![AllContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/all_contours.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/10c15cd4-9b0d-4e2e-9e7f-0d1c0eba9298/04fef4c5-a15c-4c75-bd23-7920e6570cea/Untitled.png)
+Just contours:
+![JustContours](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/just_contours.png)
+
+Just Convex Hulls:
+![JustHulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/just_hulls.png)
+
+Contours and Convex Hulls together:
+![Contours&Hulls](https://github.com/metin-yat/Geospatial-Lidar-Project/blob/master/final-results/large%20area/hulls_%26_contours.png)
+
 
 ### *Conclusion*
 
