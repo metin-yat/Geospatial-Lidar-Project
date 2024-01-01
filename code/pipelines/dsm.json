@@ -1,0 +1,22 @@
+{
+    "pipeline":[
+        "[INPUT-PATH].laz",
+        {
+            "type":"filters.reprojection",
+            "in_srs":"EPSG:2193",
+            "out_srs":"EPSG:2193"
+        },
+        {
+            "type":"filters.range",
+            "limits":"returnnumber[1:1]"
+        },
+        {
+            "type":"writers.gdal",
+            "filename":"[OUTPUT-PATH]/dsm.tif",
+            "gdaldriver":"GTiff",
+            "output_type":"idw",
+            "window_size":"0",
+            "resolution":"0.5"
+        } 
+    ]
+}

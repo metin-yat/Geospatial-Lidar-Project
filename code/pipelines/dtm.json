@@ -1,0 +1,42 @@
+
+{
+    "pipeline":[
+        "INPUT_LAZ_FILE'S_PATH",
+        {
+            "type":"filters.reprojection",
+            "in_srs":"EPSG:2193",
+            "out_srs":"EPSG:2193"
+        },
+        {
+          "type":"filters.assign",
+          "assignment":"Classification[:]=0"
+        },
+        {
+          "type":"filters.elm"
+        },
+        {
+          "type":"filters.outlier"
+        },
+        {
+          "type":"filters.smrf",
+          "ignore":"Classification[7:7]",
+          "slope":0.15,
+          "window":18,
+          "threshold":0.5,
+          "scalar":1.25,
+          "returns":"first, only"
+        },
+        {
+          "type":"writers.gdal",
+          "filename":"OUTPUT_LAZ_FILE'S_PATH",
+          "gdaldriver":"GTiff",
+          "output_type":"idw",
+          "window_size":"1",
+          "resolution":"0.5"
+        },
+        {
+          "type":"filters.range",
+          "limits":"Classification[2:2]"
+        }
+    ]
+}
